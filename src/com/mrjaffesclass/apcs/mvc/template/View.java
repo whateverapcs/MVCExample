@@ -84,7 +84,7 @@ public class View extends javax.swing.JFrame implements MessageHandler {
         hitABomb(((MessagePayload)messagePayload).getField(),((MessagePayload)messagePayload).getDirection());
     }
     else if (messageName.equals("model:hitASafeSpot")) {
-        if(lives > 1){
+        if(lives > 0){
         score++;
     }
         jLabel3.setText(Integer.toString(score));        
