@@ -38,7 +38,8 @@ public class Model implements MessageHandler {
   
     setGridSize(8);
     setNumMines(10);
-    randomizeMines(getNumMines()+1);
+    randomizeMines(getNumMines());
+    //change to getNumMines() + 1 if missing a mine
   }
   /*
   randomizeMines takes the number of mines you want on the board and randomly inserts it into the minegrid as true values. If the mineGrid array equals true, then there is a bomb at that location in the array.
