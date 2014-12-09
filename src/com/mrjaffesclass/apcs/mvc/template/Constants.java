@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Constants class creates the constants UP, DOWN, FIELD_1_INCREMENT, FIELD_2_INCREMENT, LIVES (sadly not used), AND SCORE (sadly not used)
  */
 
 package com.mrjaffesclass.apcs.mvc.template;
@@ -17,4 +15,7 @@ public class Constants {
   
   public static final int FIELD_1_INCREMENT = 1;
   public static final int FIELD_2_INCREMENT = 1;
+
+  public static final int SCORE = 0;
+  public static final int LIVES = 3;
 }
